@@ -213,12 +213,7 @@ section.bottom-banner img.banner {
   max-width:100%;
   margin-bottom: -10px; }
 
-.glow {
-  box-shadow: 0 0 200px rgba(22,19,16,0.9);
-  -webkit-box
-}
-
-div.vignette {
+div.DISABLE-vignette {
 	-webkit-box-shadow: inset 0px 0px 85px rgba(0,0,0,0.4);
 	-moz-box-shadow:    inset 0px 0px 85px rgba(0,0,0,0.4);
 	box-shadow:         inset 0px 0px 85px rgba(0,0,0,0.4);
@@ -227,7 +222,7 @@ div.vignette {
 
 	display: inline-block;  /* don't go wider than image */
 }
-div.vignette img {
+div.DISABLE-vignette img {
 	position: relative;
 	z-index: -1;            /* position beneath */
 }
